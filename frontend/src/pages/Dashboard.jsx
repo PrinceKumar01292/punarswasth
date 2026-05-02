@@ -65,7 +65,7 @@ export default function Dashboard() {
             <input
               value={search} onChange={e => setSearch(e.target.value)}
               placeholder="Search patient name or condition..."
-              style={{ width:'100%', background:'var(--surface2)', border:'1px solid var(--border)', borderRadius:8, padding:'8px 12px', color:'var(--text)', fontSize:13, fontFamily:"'DM Sans',sans-serif", outline:'none' }}
+              style={{ width:'100%' , background:'var(--surface2)', border:'1px solid var(--border)', borderRadius:8, padding:'8px 12px', color:'var(--text)', fontSize:13, fontFamily:"'DM Sans',sans-serif", outline:'none' }}
             />
           </div>
           {/* Rows */}
@@ -161,4 +161,4 @@ export default function Dashboard() {
       </div>
     </div>
   )
-}
+} 
